@@ -9,10 +9,10 @@
   tasks:
 
 
-  - name: Add User avielb
+  - name: Add User niry
     user:
-      name: avielb
-      comment: "Aviel Buskila"
+      name: niry
+      comment: "Nir Yahalomi"
       shell: /bin/bash
     notify: Handler_No1
 
