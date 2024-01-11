@@ -2,8 +2,8 @@ version: "3.3"
 services:
   ansible:
     command: ["sleep", "100000"]
-    image: "niry/ansible-manager:latest"
+    image: "niro828/ansible-manager:latest"
   node1:
-    image: "niry/ansible-demo"
+    image: "niro828/ansible-demo"
   node2:
-    image: "niry/ansible-demo"
+    image: "niro828/ansible-demo"
