@@ -1,8 +1,8 @@
 #!/bin/bash
 docker rm -f ansible_node1  ansible_node2
-#docker build -t aviel/ansible-demo .
-docker run -d -P --name ansible_node1 avielb/ansible-demo
-docker run -d -P --name ansible_node2 avielb/ansible-demo
+#docker build -t niry/ansible-demo .
+docker run -d -P --name ansible_node1 niry/ansible-demo
+docker run -d -P --name ansible_node2 niry/ansible-demo
 IP_ADDR=localhost
 NODE1=`docker port ansible_node1 22 | awk -F ':' '{print $2}'`
 NODE2=`docker port ansible_node2 22 | awk -F ':' '{print $2}'`
